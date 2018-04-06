@@ -1,0 +1,13 @@
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\bin\Debug\LabIhc.exe.config
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\LabIhc.csprojResolveAssemblyReference.cache
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\LabIhc.Properties.Resources.resources
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\LabIhc.csproj.GenerateResource.Cache
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\bin\Debug\LabIhc.exe
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\bin\Debug\LabIhc.pdb
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\LabIhc.exe
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\LabIhc.pdb
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\LabIhc.LabirintoGame.resources
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\LabIhc.Menu.resources
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\bin\Debug\pt-BR\LabIhc.resources.dll
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\LabIhc.LabirintoGame.pt-BR.resources
+C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\pt-BR\LabIhc.resources.dll
