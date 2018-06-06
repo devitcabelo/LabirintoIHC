@@ -9,25 +9,39 @@ namespace LabIhc
 {
     class LerDoArquivo
     {
-        StreamReader sr = new StreamReader(@"labirinto.txt");
-        List<string[]> labirintos = new List<string[]>();
-        public string[] getTexto()
+        StreamReader sr;
+        string[] labirinto;
+        public LerDoArquivo()
         {
+            sr = new StreamReader(@"labirinto.txt");
+        }
+
+        public string[] getTexto(int dificuldade)
+        {
+            labirinto = new string[10 + (dificuldade * 8)];
             string linha = "";
-            for (int i = 0; linha != null; i++)
+            int count = 0;
+            int j = 0;
+            linha = sr.ReadLine();           
+            for (int i = 0; linha != null && count <= dificuldade; i++)
             {
-                labirintos.Add(new string[10]);
-                linha = sr.ReadLine();
-                for (int j = 0; linha != null && !linha.Equals("-"); j++)
+                if (linha.Equals("-"))
                 {
-                    labirintos[i][j] = linha;
+                    count++;
                     linha = sr.ReadLine();
                 }
+                if(count == dificuldade)
+                {
+                    labirinto[j] = linha;
+                    j++;
+                    
+                }
+                linha = sr.ReadLine();
             }
-
+                
             Random num = new Random();
 //           int labNum = num.Next(0, 2);
-            return labirintos[0];
+            return labirinto;
         }
     }
 }

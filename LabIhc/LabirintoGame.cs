@@ -19,16 +19,51 @@ namespace LabIhc
         Labirinto lab = new Labirinto();
         LabirintoParaGrafo labParaGrafo;
         public int final;
-        public LabirintoGame()
+        Timer relogio = new Timer();
+
+        public LabirintoGame(bool timeattack,int  dificuldade)
         {
             InitializeComponent();
-            
-            MessageBox.Show("Bem vindo ao jogo de labirinto com grafos!\nTutorial:"
-                + "\nUtilize das teclas WASD ou dos botões disponíveis para se movimentar no labirinto."
-                + "\nO objetivo do labirinto é chegar ao vertice final, indicado no canto superior esquerdo, no menor caminho possível."
-                +"\nA distância percorrida é indicada junto ao vértice final.", "Introdução");
+            lab.labirintoDoArquivo(dificuldade);
+            labParaGrafo = new LabirintoParaGrafo(lab.getLabirinto());
+            adjs = labParaGrafo.grafo.adjacentes(0);
+            nos = labParaGrafo.nos;
+            atual = nos[0];
+            pictureBox1.Image = Image.FromFile(atual.image);
+            travaBotoes();
+            atualizaLabel();
+            final = labParaGrafo.grafo.final;
+            labelFinal.Text = "Vértice Final: " + final;
+            labelVerticeAtual.Text = "Vértice Atual: 0";
 
-            lab.labirintoDoArquivo();
+        }
+            public LabirintoGame(bool timeattack, int timer, int dificuldade)
+        {
+            InitializeComponent();
+
+            relogio.Interval = 1000; // 1000 ms = 1s
+            int tempo = timer;
+
+            if (timeattack)
+            {
+                Time.Show();
+                pictureBox2.Show();
+                relogio.Tick += delegate
+                {
+                    tempo -= 1;
+                    Time.Text = tempo.ToString();
+                    if (tempo == 0)
+                    {
+                        relogio.Stop();
+                        MessageBox.Show("Você perdeu.");
+                        this.Close();
+                    }
+                };
+                relogio.Start();
+            }
+
+
+            lab.labirintoDoArquivo(dificuldade);
             labParaGrafo = new LabirintoParaGrafo(lab.getLabirinto());
             adjs = labParaGrafo.grafo.adjacentes(0);
             nos = labParaGrafo.nos;
@@ -70,6 +105,7 @@ namespace LabIhc
         {
             if(vertice == final)
             {
+                relogio.Stop();
                 DialogResult dr =  MessageBox.Show("Parabéns!!!! \nVocê terminou o labirinto, você deseja comparar o seu resultado com o melhor caminho?.","Parabéns",MessageBoxButtons.YesNo);
                 if (dr == DialogResult.Yes)
                 {
@@ -280,37 +316,57 @@ namespace LabIhc
             }
         }
 
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabirintoGame_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public void atualizaLabel()
         {
             labelVerticeAtual.Text = "Vértice Atual: " + atual.vertice;
             int i = 0;
             if(atual.veioDe == 1)
             {
-                label5.Text = "Vertice: " + adjs[i].item.vertice;
+                label5.Text = "Vértice: " + adjs[i].item.vertice;
                 label6.Text = "Distância: " + adjs[i].item.peso;
                 i++;
             }
             else if (atual.veioDe == 2)
             {
-                label7.Text = "Vertice: " + adjs[i].item.vertice;
+                label7.Text = "Vértice: " + adjs[i].item.vertice;
                 label8.Text = "Distância: " + adjs[i].item.peso;
                 i++;
             }
             else if (atual.veioDe == 3)
             {
-                label2.Text = "Vertice: " + adjs[i].item.vertice;
+                label2.Text = "Vértice: " + adjs[i].item.vertice;
                 label1.Text = "Distância: " + adjs[i].item.peso;
                 i++;
             }
             else if (atual.veioDe == 4)
             {
-                label3.Text = "Vertice: " + adjs[i].item.vertice;
+                label3.Text = "Vértice: " + adjs[i].item.vertice;
                 label4.Text = "Distância: " + adjs[i].item.peso;
                 i++;
             }
             if (atual.esqu && atual.veioDe != 1)
             {
-                label5.Text = "Vertice: " + adjs[i].item.vertice;
+                label5.Text = "Vértice: " + adjs[i].item.vertice;
                 label6.Text = "Distância: " + adjs[i].item.peso;
                 i++;
             }
@@ -321,7 +377,7 @@ namespace LabIhc
             }
             if (atual.baix && atual.veioDe != 2)
             {
-                label7.Text = "Vertice: " + adjs[i].item.vertice;
+                label7.Text = "Vértice: " + adjs[i].item.vertice;
                 label8.Text = "Distância: " + adjs[i].item.peso;
                 i++;
             }
@@ -332,7 +388,7 @@ namespace LabIhc
             }
             if (atual.dire && atual.veioDe != 3)
             {
-                label2.Text = "Vertice: " + adjs[i].item.vertice;
+                label2.Text = "Vértice: " + adjs[i].item.vertice;
                 label1.Text = "Distância: " + adjs[i].item.peso;
                 i++;
             }
@@ -343,7 +399,7 @@ namespace LabIhc
             }
             if (atual.cima && atual.veioDe != 4)
             {
-                label3.Text = "Vertice: " + adjs[i].item.vertice;
+                label3.Text = "Vértice: " + adjs[i].item.vertice;
                 label4.Text = "Distância: " + adjs[i].item.peso;
                 i++;
             }

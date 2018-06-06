@@ -11,3 +11,31 @@ C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\LabIhc.Menu.resource
 C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\bin\Debug\pt-BR\LabIhc.resources.dll
 C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\LabIhc.LabirintoGame.pt-BR.resources
 C:\Users\maxev\Desktop\LabIHC\LabirintoIHC\LabIhc\obj\Debug\pt-BR\LabIhc.resources.dll
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\bin\Debug\LabIhc.exe.config
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\bin\Debug\LabIhc.exe
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\bin\Debug\LabIhc.pdb
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\bin\Debug\pt-BR\LabIhc.resources.dll
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.csprojAssemblyReference.cache
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.Menu.resources
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.LabirintoGame.resources
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.Properties.Resources.resources
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.LabirintoGame.pt-BR.resources
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.csproj.GenerateResource.cache
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.csproj.CoreCompileInputs.cache
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\pt-BR\LabIhc.resources.dll
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.exe
+C:\Users\Debora\Documents\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.pdb
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\bin\Debug\LabIhc.exe.config
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.exe
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.pdb
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\bin\Debug\LabIhc.exe
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\bin\Debug\LabIhc.pdb
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\bin\Debug\pt-BR\LabIhc.resources.dll
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.csprojResolveAssemblyReference.cache
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.Dificuldades.resources
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.Menu.resources
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.LabirintoGame.resources
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.Properties.Resources.resources
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.LabirintoGame.pt-BR.resources
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\LabIhc.csproj.GenerateResource.Cache
+C:\Users\maxev\Desktop\LabIHCDefinitivo\Labirinto\e44f4bab-7ce8-4253-b754-888f0e1fd6ab_1650117_P7_Gabriel de Freitas Mendes\LabIhc\obj\Debug\pt-BR\LabIhc.resources.dll

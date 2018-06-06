@@ -50,7 +50,10 @@
             this.labelVeioDeEsq = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelVerticeAtual = new System.Windows.Forms.Label();
+            this.Time = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // FecharJogo
@@ -164,16 +167,32 @@
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // labelVerticeAtual
             // 
             resources.ApplyResources(this.labelVerticeAtual, "labelVerticeAtual");
             this.labelVerticeAtual.Name = "labelVerticeAtual";
             // 
+            // Time
+            // 
+            resources.ApplyResources(this.Time, "Time");
+            this.Time.Name = "Time";
+            this.Time.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // LabirintoGame
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.Time);
             this.Controls.Add(this.labelVerticeAtual);
             this.Controls.Add(this.labelVeioDeEsq);
             this.Controls.Add(this.labelVeioDir);
@@ -197,8 +216,10 @@
             this.Controls.Add(this.FecharJogo);
             this.KeyPreview = true;
             this.Name = "LabirintoGame";
+            this.Load += new System.EventHandler(this.LabirintoGame_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LabirintoGame_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,5 +248,7 @@
         private System.Windows.Forms.Label labelVeioDir;
         private System.Windows.Forms.Label labelVeioDeEsq;
         private System.Windows.Forms.Label labelVerticeAtual;
+        private System.Windows.Forms.Label Time;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

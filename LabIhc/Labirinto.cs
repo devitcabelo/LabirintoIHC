@@ -19,10 +19,10 @@ namespace LabIhc
             return labirinto;
         }
 
-        public void labirintoDoArquivo()
+        public void labirintoDoArquivo(int dificuldade)
         {
             LerDoArquivo labirintoStr = new LerDoArquivo();
-            labirinto = labirintoStr.getTexto();
+            labirinto = labirintoStr.getTexto(dificuldade);
         }
         public override string ToString()
         {
