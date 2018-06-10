@@ -50,7 +50,7 @@
             this.btnSair.Location = new System.Drawing.Point(58, 190);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(158, 48);
-            this.btnSair.TabIndex = 1;
+            this.btnSair.TabIndex = 3;
             this.btnSair.Text = "Sair do jogo";
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
@@ -70,7 +70,7 @@
             this.TimeAttack.Location = new System.Drawing.Point(58, 82);
             this.TimeAttack.Name = "TimeAttack";
             this.TimeAttack.Size = new System.Drawing.Size(158, 48);
-            this.TimeAttack.TabIndex = 3;
+            this.TimeAttack.TabIndex = 1;
             this.TimeAttack.Text = "Iniciar Labirinto - TimeAttack";
             this.TimeAttack.UseVisualStyleBackColor = true;
             this.TimeAttack.Click += new System.EventHandler(this.button1_Click);

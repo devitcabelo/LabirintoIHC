@@ -68,12 +68,12 @@
             // SelecionarDificuldade
             // 
             this.SelecionarDificuldade.AutoSize = true;
-            this.SelecionarDificuldade.BackColor = System.Drawing.Color.Transparent;
-            this.SelecionarDificuldade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SelecionarDificuldade.BackColor = System.Drawing.Color.LightGray;
+            this.SelecionarDificuldade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SelecionarDificuldade.ForeColor = System.Drawing.Color.Black;
-            this.SelecionarDificuldade.Location = new System.Drawing.Point(27, 20);
+            this.SelecionarDificuldade.Location = new System.Drawing.Point(3, 0);
             this.SelecionarDificuldade.Name = "SelecionarDificuldade";
-            this.SelecionarDificuldade.Size = new System.Drawing.Size(245, 20);
+            this.SelecionarDificuldade.Size = new System.Drawing.Size(278, 20);
             this.SelecionarDificuldade.TabIndex = 3;
             this.SelecionarDificuldade.Text = "Selecione a dificuldade desejada:";
             // 
